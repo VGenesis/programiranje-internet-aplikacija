@@ -1,0 +1,53 @@
+// Grayscale
+$black:         #000000;
+$gray-25p:      #333333;
+$gray-50p:      #777777;
+$gray-75p:      #AAAAAA;
+$white:         #FFFFFF;
+
+// Primary Colors
+$red:           #FF0000;
+$orange:        #FF7700;
+$yellow:        #FFFF00;
+$lime:          #77FF00;
+$green:         #00FF00;
+$turqoise:      #00FF77;   
+$teal:          #00FFFF;
+$light-blue:    #0077FF;
+$blue:          #0000FF;
+$purple:        #7700FF;
+$pink:          #FF00FF;
+$crimson:       #FF0077;
+
+// Primary Color Nuances
+
+$dark-red:      #770000;
+$dark-green:    #007700;
+$dark-blue:     #000077;
+$light-red:     #FF4444;
+$light-green:   #44FF44;
+$light-blue:    #4444FF;
+
+// Custom Colors
+
+$blue-tint: #DFDFFF;
+$lime-50p: #77FF0077;
+$blue-50p: #0000FF33;
+
+// Styles
+
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+table{
+    border: 0px;
+    margin: 0px;
+}
+
+tr, td{
+    border: 3px solid $black;
+    padding: 5px;
+}
+
