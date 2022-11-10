@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.table {
+  border: 3px solid #000000;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=index.css.map */

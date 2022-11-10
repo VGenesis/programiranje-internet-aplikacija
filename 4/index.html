@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>JavaScript example</title>
+        <!-- <link rel="stylesheet" href="index.css"> -->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <h1 align="CENTER">D I G I T R O N</h1>
+
+        <table border="0" align="CENTER">
+            <form name="racunaljka" action="" method="">
+                <tr>
+                    <td>Unesite prvi broj: </td>
+                    <td><input type="text" name="br1" value=""></td>
+                </tr>
+                <tr>
+                    <td>Unesite drugi broj: </td>
+                    <td><input type="text" name="br2" value=""></td>
+                </tr>
+                <tr>
+                    <td colspan = "2" align="center">
+                        <input type="button" name="saberi" value="+" onclick="izracunaj(1)">
+                        <input type="button" name="oduzmi" value="-" onclick="izracunaj(2)">
+                        <input type="button" name="pomnozi" value="*" onclick="izracunaj(3)">
+                        <input type="button" name="podeli" value="/" onclick="izracunaj(4)">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        Rezultat:
+                        <input type="text" name="rez" value="" readonly="readonly">
+                    </td>
+                </tr>
+            </form>
+        </table>
+
+    </body>
+</html>

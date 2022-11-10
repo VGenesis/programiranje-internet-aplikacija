@@ -1,0 +1,138 @@
+// Grayscale
+$black:         #000000;
+$gray-25p:      #333333;
+$gray-50p:      #777777;
+$gray-75p:      #AAAAAA;
+$white:         #FFFFFF;
+
+// Primary Colors
+$red:           #FF0000;
+$orange:        #FF7700;
+$yellow:        #FFFF00;
+$lime:          #77FF00;
+$green:         #00FF00;
+$turqoise:      #00FF77;   
+$teal:          #00FFFF;
+$light-blue:    #0077FF;
+$blue:          #0000FF;
+$purple:        #7700FF;
+$pink:          #FF00FF;
+$crimson:       #FF0077;
+
+// Primary Color Nuances
+
+$dark-red:      #770000;
+$dark-green:    #007700;
+$dark-blue:     #000077;
+$light-red:     #FF4444;
+$light-green:   #44FF44;
+$light-blue:    #4444FF;
+
+// Custom Colors
+
+$blue-tint: #DFDFFF;
+$lime-50p: #77FF0077;
+$blue-50p: #0000FF33;
+
+// Styles
+
+* {
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    background-color: $blue-tint;
+    padding: 10px;
+}
+
+.header{
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    background: $white;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+.navbar{
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+    background-color: $gray-50p;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    text-align: center;
+    color: $gray-75p;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: $black;
+    background-color: $white;
+}
+
+.left-column {
+    float: left;
+    width: 75%;
+}
+
+.right-column {
+    padding: 16px;
+    float: right;
+    width: 25%;
+}
+
+.footer {
+    float:none;
+    padding: 20px;
+    text-align: center;
+    background: $blue-50p;
+}
+
+.row::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.heading {
+    padding: 4px 16px 8px 16px;
+    margin-top: 20px;
+    background-color: $white;
+}
+
+.side {
+    padding: 4px 16px 8px 16px;
+    background-color: $white;
+}
+
+.image-field {
+    padding: 10px;
+    min-height: 200px;
+    background-color: $lime-50p;
+    border: $black 3px;
+}
+
+@media screen and (max-width: 800px){
+    .left-column, .right-column{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .navbar a{
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,79 @@
+// Grayscale
+$black:         #000000;
+$gray-25p:      #333333;
+$gray-50p:      #777777;
+$gray-75p:      #AAAAAA;
+$white:         #FFFFFF;
+
+// Primary Colors
+$red:           #FF0000;
+$orange:        #FF7700;
+$yellow:        #FFFF00;
+$lime:          #77FF00;
+$green:         #00FF00;
+$turqoise:      #00FF77;   
+$teal:          #00FFFF;
+$light-blue:    #0077FF;
+$blue:          #0000FF;
+$purple:        #7700FF;
+$pink:          #FF00FF;
+$fuschia:       #FF0077;
+
+// Primary Color Nuances
+
+$dark-red:      #770000;
+$dark-green:    #007700;
+$dark-blue:     #000077;
+
+$light-red:     #FF4444;
+$light-green:   #44FF44;
+$light-blue:    #4444FF;
+
+$crimson:       #DD2222;
+
+// Custom Colors
+
+$blue-tint:     #DDDDFF;
+$crimson-gray:  #332222;
+
+$lime-50p:      #77FF0077;
+$blue-50p:      #0000FF33;
+$crimson-50p:   #DD222277;
+$crimson-25p:   #DD222233;
+
+// Styles
+
+* {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+body{
+    background-color: $crimson-gray;
+}
+
+@font-face {
+    font-family: digital7;
+    src: url(./../fonts/digital-7.ttf);
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: $light-red;
+    font-family: digital7;
+    font-size: 80px;
+    font-feature-settings: "tnum";
+    font-variant-numeric: tabular-nums;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 400px;
+    background-color: $crimson-50p;
+    border-radius: 24px;
+    box-shadow: inset 5px 5px 21px $crimson-25p;
+}
