@@ -78,4 +78,4 @@ function formatDate(date){
 
 toFullName(students);
 document.getElementById("table").innerHTML = generateHTML(students);
-console.log(students);Q
+console.log(students);

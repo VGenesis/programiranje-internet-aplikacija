@@ -3,12 +3,8 @@
   padding: 10px;
 }
 
-table {
-  border: 0px;
-  margin: 0px;
-}
-
-tr, td {
+.table {
   border: 3px solid #000000;
-  padding: 5px;
+  align-items: center;
+  justify-content: center;
 }/*# sourceMappingURL=index.css.map */
